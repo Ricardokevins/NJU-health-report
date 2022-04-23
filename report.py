@@ -20,7 +20,7 @@ def get_zjhs_time(method, last_id):
         PCR_date = today + datetime.timedelta(-delta)
     else:
         PCR_date = today
-    return PCR_date.strftime("%Y-%m-%d %-H")
+    return PCR_date.strftime("%Y-%m-%d 14")
 
 
 def apply(curr_location, logger, auth: NjuUiaAuth, covidTestMethod, last_id, force=False):
