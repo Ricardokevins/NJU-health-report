@@ -53,6 +53,6 @@ if __name__ == "__main__":
         os._exit(-1)
 
     # start reporting
-    ok = apply(curr_location, log, auth, method, last_id, True)
+    ok = apply(curr_location, log, auth, method, last_id)
     if not ok:
         os._exit(-1)
